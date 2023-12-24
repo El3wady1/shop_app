@@ -1,0 +1,49 @@
+<!-- res/layout/item_product.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#427378"
+    android:backgroundTint="#7D9DD3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/productimage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/textProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textProductPrice"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:text="Buy"
+
+        ></Button>
+
+    <!-- Add more views as needed -->
+
+</LinearLayout>

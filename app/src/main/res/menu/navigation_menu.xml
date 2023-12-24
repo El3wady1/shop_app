@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    >
+
+    <item
+        android:id="@+id/elawady"
+        android:title="El3wady" />
+
+    <item
+        android:id="@+id/mnm"
+        android:title="" />
+
+    <item
+        android:id="@+id/mm"
+        android:title="" />
+    <item
+        android:id="@+id/n"
+        android:title="" />
+
+</menu>
